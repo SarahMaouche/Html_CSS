@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projet Final html css</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#Acceuil">Acceuil </a></li>
+                <li><a href="#Apropot">A propot</a></li>
+                <li><a href="#NosServices">NosService</a></li>
+                <li><a href="#contact">Contacter Nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="baner">
+        <h1>Bienvenue a l'hotel Big nova</h1>
+        <p>Destination de reve pour une déstination innoubliable</p>
+
+    </div>
+
+    <section id="Apropot">
+        <h2>A PROPOT</h2>
+
+        <div class="about_container">
+            <div class="about_image">
+                <img src="../Html_CSS/assets/delicieux-repas-lit-dans-vue-laterale-chambre.jpg" alt="">
+
+            </div>
+            <div class="about_text">
+                <p>Bievenu a l'hotel lieu de detente hultime au cour de la nature profitez de nos chambre luxieuse de
+                    notre cuisine rafiner de notre setvice exeptopnnel pour des vacances inubliable</p>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="NosServices">
+        <h2>Nos Service</h2>
+
+        <div class="about_container">
+
+            <div class="about_text">
+                <p>Bievenu a l'hotel lieu de detente hultime au cour de la nature profitez de nos chambre luxieuse de
+                    notre cuisine rafiner de notre setvice exeptopnnel pour des vacances inubliable</p>
+
+            </div>
+            <div class="about_image">
+                <img src="../Html_CSS/assets/delicieux-repas-lit-dans-vue-laterale-chambre.jpg" alt="">
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contactez nous</h2>
+        <form action="#" method="POST">
+            <label for="nomcomplet">Nom Complet:</label>
+            <input type="text" required id="nomcomplet" name="nomcomplet"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br><br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required><br><br>
+
+
+            <label for="numtel">Numero de telefone:</label>
+            <input type="tel" name="telefone" id="telefone" required><br><br>
+            <label for="description">Description:</label><br/>
+            <textarea name="description" id="description" cols="50" rows="4" required></textarea><br/>
+            <div class="sexe">
+                <label for="sexe">Sexe</label><br />
+                <input type="radio" id="homme" name="sexe" value="homme">
+
+                <label for="homme">Homme</label>
+
+                <input type="radio" id="femme" name="sexe" value="femme">
+                <label for="femme">Femme</label>
+                <input type="radio" id="autre" name="sexe" value="autre">
+                <label for="autre">Autre</label>
+
+            </div><br>
+            <input type="submit" value="envoyer">
+
+
+        </form>
+    </section>
+<footer>
+    <p>&copy;2023 hotel . tout droit réservé</p>
+</footer>
+</body>
+
+</html>
